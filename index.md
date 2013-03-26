@@ -1,5 +1,4 @@
 ---
-title: Hackeen's blog
 layout: page
 ---
 {% include JB/setup %}
