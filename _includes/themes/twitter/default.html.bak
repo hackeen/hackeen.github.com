@@ -58,7 +58,6 @@
       <hr>
       <footer>
         <p>&copy; {{ site.time | date: '%Y' }} <a href="http://weibo.com/838902626">{{ site.author.name }}</a>
-		 email:<a href="lqiao@hackeen.com">lqiao@hackeen.com</a>
          powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>          
         <script src="http://s85.cnzz.com/stat.php?id=5108690&web_id=5108690&show=pic" language="JavaScript"></script>
         </p>
