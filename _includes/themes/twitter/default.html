@@ -47,13 +47,7 @@
 
     <div class="container-narrow">
    <wb:share-button appkey="964262075" relateuid="1899267217" ></wb:share-button>
-    <!--
-    <wb:follow-button uid="1899267217" type="red_3" width="100%" height="20" ></wb:follow-button>-->
-      <div class="content">
-        {{ content }}
-      </div>          
-      <hr>
-      		<style>
+   	<style>
 		.bizmail_loginpanel{font-size:12px;width:300px;height:auto;border:1px solid #cccccc;background:#ffffff;}
 		.bizmail_LoginBox{padding:10px 15px;}
 		.bizmail_loginpanel h3{padding-bottom:5px;margin:0 0 5px 0;border-bottom:1px solid #cccccc;font-size:14px;}
@@ -71,6 +65,12 @@
 		<script type="text/javascript">
 		writeLoginPanel({domainlist:"hackeen.com", mode:"horizontal"});
 		</script>
+    <!--
+    <wb:follow-button uid="1899267217" type="red_3" width="100%" height="20" ></wb:follow-button>-->
+      <div class="content">
+        {{ content }}
+      </div>          
+      <hr>      	
       <footer>
         <p>&copy; {{ site.time | date: '%Y' }} <a href="http://weibo.com/838902626" target="_blank" title="关注良樵">@{{ site.author.name }}</a>
         <a href="Mailto:lqiao@hackeen.com" title="给我发邮件">lqiao@hackeen.com</a>
