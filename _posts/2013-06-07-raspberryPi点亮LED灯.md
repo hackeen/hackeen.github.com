@@ -35,14 +35,14 @@ category : 良樵
 先看GPIO图，具体可以Google一下。
 
 方向这样罢：
-![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/raspberryPiGPIO.JPG)
+![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/RASPBERRYPIGPIO.JPG)
 上图右上角的针脚，就是GPIO接口。序号示意图如下：
 ![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/GPIO.png)
 
 ***注意，写程序时，引角序号按圆圈内标注的为准。***
 
 线路简单，直接照片：
-![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/Link.JPG)
+![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/LINK.JPG)
 照片不太清楚，文字说明一下：
 <pre>
    参照序号示意图
@@ -65,7 +65,6 @@ from time import sleep
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 GPIO.setup(11,GPIO.OUT)
-
 while True:	
 	GPIO.output(11,GPIO.HIGH)
 	sleep(1)
