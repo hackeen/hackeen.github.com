@@ -13,7 +13,7 @@ category : 良樵
 	1、raspberryPi官网上，可以查到，raspberryPi最大输出50ma电流，每个引脚最大15ma
 	2、GPIO上说得清楚，提供3.3V输出电压
 </pre>	
-而led，包装上写得清楚：5V   <20mA。对比raspberryPi,不够？非也，led标注的最大值。3.3v，10mA足以点亮led。
+而led，包装上写得清楚：电压5V  电流<20mA。对比raspberryPi,不够？非也，led标注的最大值。3.3v，10mA足以点亮led。
 
 算算电阻
 <pre>
