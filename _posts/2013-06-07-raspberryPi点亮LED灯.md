@@ -65,7 +65,6 @@ from time import sleep
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 GPIO.setup(11,GPIO.OUT)
-
 while True:	
 	GPIO.output(11,GPIO.HIGH)
 	sleep(1)
