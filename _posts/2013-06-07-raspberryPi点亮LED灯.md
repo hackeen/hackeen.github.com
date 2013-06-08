@@ -79,5 +79,5 @@ Python程序：test.py
 注意：
 <pre>
 	操作GPIO，需要root
-	sleep的参数，不是秒。
+	sleep的参数，是秒。
 </pre>	
