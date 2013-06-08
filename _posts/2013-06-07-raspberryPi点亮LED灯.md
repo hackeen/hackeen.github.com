@@ -17,8 +17,8 @@ category : 良樵
 
 算算电阻
 <pre>
-3.3v/10mA = 330欧。额，偶莫有330的电阻，220差不多，输出电流15mA，小于20mA就烧不了。
-初中学的欧姆定律又用上啦。
+	3.3v/10mA = 330欧。额，偶莫有330的电阻，220差不多，输出电流15mA，小于20mA就烧不了。
+	初中学的欧姆定律又用上啦。
 </pre>
 
 我们需要元件
@@ -26,8 +26,8 @@ category : 良樵
 	一个raspberryPi
 	一个led
 	一个面包板
-    一个220欧的电阻
-    两根公头对母头线
+	一个220欧的电阻
+	两根公头对母头线
 </pre>
 
 接下来，我们要接线了。***注意，不要热拔插。***
@@ -52,24 +52,24 @@ category : 良樵
 
 接线完毕。接下来，开机，安装python的GPIO模块。
 <pre>
-sudo apt-get install python-setuptools
-sudo easy_install -U distributesudo 
-apt-get install python-dev
-sudo easy_install RPi.GPIO
+	sudo apt-get install python-setuptools
+	sudo easy_install -U distributesudo 
+	apt-get install python-dev
+	sudo easy_install RPi.GPIO
 </pre>
 
 Python程序：test.py
 <pre>
-import RPi.GPIO as GPIO
-from time import sleep
-GPIO.setmode(GPIO.BOARD)
-GPIO.setwarnings(False)
-GPIO.setup(11,GPIO.OUT)
-while True:	
-	GPIO.output(11,GPIO.HIGH)
-	sleep(1)
-	GPIO.output(11,GPIO.LOW)
-	sleep(1)
+	import RPi.GPIO as GPIO
+	from time import sleep
+	GPIO.setmode(GPIO.BOARD)
+	GPIO.setwarnings(False)
+	GPIO.setup(11,GPIO.OUT)
+	while True:	
+		GPIO.output(11,GPIO.HIGH)
+		sleep(1)
+		GPIO.output(11,GPIO.LOW)
+		sleep(1)
 </pre>	
 
 下一步，执行:sudo python test.py
