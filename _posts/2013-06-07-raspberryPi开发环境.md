@@ -30,4 +30,4 @@ raspberryPi自带Python，还可以用QT，ruby。所以理论上，接个显示
 	注意：如果您也用远程的方式操作raspberryPi，记得把raspberryPi设置为静态IP。您好总不希望它IP每次都变吧。
 </pre>	
 
-![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/RASPBERRYPI.JPG)
+![](https://raw.github.com/hackeen/hackeen.github.com/master/img/20130607/raspberryPi.jpg)
